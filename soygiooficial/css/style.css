@@ -1,0 +1,117 @@
+/* barra de navegación */
+.navbar {
+    padding: 1rem;
+    background-color: #000000;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: end;
+}
+
+.navbar-brand img{
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+/* estilos generales */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*background-image: url('../images/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px 700px;
+    background-position: center;*/
+}
+
+h1 {
+    font-size: 2.5rem;   
+    font-family: 'Rubik Bubbles', cursive;
+}
+a {
+    font-family: 'Righteous', cursive;
+}
+h5 {
+    color: black;
+    font-family: 'Rubik Bubbles', cursive;
+}
+h2 {
+    color: black;
+    font-family: 'Righteous', cursive;
+}
+h3 {
+    font-family: 'Righteous', cursive;
+    color: #6e6d6d;
+}
+.btn {
+    font-family: 'Righteous', cursive;
+}
+/*seccion hero*/
+.hero {
+    background-color: #000000;
+    text-align: center;
+    min-height: 450px;
+    
+}
+
+.hero-principal {
+    padding: 4rem;
+}
+
+.hero-principal-musico {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.hero .container {
+    margin-bottom: 100px;
+}
+
+/*seccion redes*/
+
+.redes i {
+    font-size: 2.5rem;
+    color: white;
+}
+.redes {
+    height: 300px;
+    background-color: #000000;
+    background-image: url('../images/fondofooter.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px 500px;
+    background-position: left;
+}
+
+@media screen and (max-width: 767px) {
+    .redes {
+        background-image: none;
+    }
+    .hero-principal {
+        padding: 1rem;
+        padding-bottom: 4rem;
+    }
+    .hero-inferior {
+        text-align: center;
+    }
+    .hero-principal-musico {
+        margin-bottom: 30px;
+    }
+    
+}
+
+
+/*seccion desarrolador*/
+.desarrollador {
+    font-family: 'merienda one', cursive;
+    
+    
+}
+.desarrollador a {
+    text-decoration: none;
+    color: #6e6d6d;
+}
+
+
